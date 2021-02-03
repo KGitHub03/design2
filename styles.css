@@ -14,8 +14,7 @@ body
 {
     margin-right: 10px;
     margin-bottom: 10px;
-    border: 1px solid teal;
-    background-color: #ccc;
+    border: 1px solid #ccc;
     border-radius: 0.5rem;
     width: 300px;
     height: 300px;
@@ -43,9 +42,8 @@ body
 }
 .classes
 {
-    text-align: left;
-    width: 100%;
-    padding-left: 10px;
+    padding: 10px;
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
 }
