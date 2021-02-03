@@ -1,17 +1,32 @@
 body
 {
-    background-image: url('https://lh3.googleusercontent.com/proxy/Dq9F4OKfPX6ewvipXe3ZXbnIzlNOV60xH7vYhfgG5QedZL5tcY96OICqHHEAiEGuB_aW5JDRUDtHeLuWnQjN0wf8UhcwxIwafjBOgg=w3840-h2160-p-k-no-nd-mv');
-    background-size: 1920px 1080px;
-    background-repeat: no-repeat;
-    background-position: top;
+    font-family: Google Sans;
     height: 100%;
 }
-.nav-btn:hover
+.card-header
 {
-    border: 1px solid teal;
+    background-color: aqua;
+    font-size: large;
+    text-align: center;
+    border-bottom: 1px solid white;
 }
 .card
 {
+    border: 1px solid teal;
+    background-color: #ccc;
+    border-radius: 0.5rem;
     width: 300px;
     height: 300px;
+}
+.card:hover
+{
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+.btn-outline-light
+{
+    border: none;
+}
+#nav
+{
+    width: 35px;
 }
