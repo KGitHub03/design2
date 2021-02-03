@@ -31,3 +31,11 @@ body
     width: 35px;
     height: 35px;
 }
+.navbar-brand
+{
+    color: white;
+}
+.navbar-brand:hover
+{
+    color: white;
+}
