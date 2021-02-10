@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/109855728/original/de5140b31bdcde8cb032cf3962f84cf1b3e74af4/create-unique-modern-abstract-geometric-background.jpg');
+    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,19 +9,23 @@ body
 }
 .card-header
 {
-    background-color: aqua;
+    background-color: #555;
+    color: white;
     font-size: large;
     text-align: center;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 .card
 {
+    background-position: bottom;
+    background-repeat: no-repeat;
     margin-right: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     width: 300px;
     height: 300px;
+    background-color: #ccc;
 }
 .card:hover
 {
@@ -50,4 +54,11 @@ body
     width: 95%;
     display: flex;
     flex-wrap: wrap;
+}
+.jumbotron
+{
+    color: white;
+    background-color: transparent;
+    /*background-image: linear-gradient(to bottom, #ccc, transparent);
+    */
 }
