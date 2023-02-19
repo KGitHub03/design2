@@ -1,73 +1,22 @@
+*
+{
+    transition: 0.2s ease !important;
+}
 body
 {
-    background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg');
-    background-position: cover;
-    background-attachment: fixed;
+    background-image: url('https://wallpapercave.com/wp/wp2163572.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Google Sans;
-    height: 100%;
+    background-position: top left;
 }
-.card-header
+.card-body
 {
-    background-color: gray;
-    color: white;
-    font-size: large;
-    text-align: center;
-    border-bottom: 2px solid white;
+    font-size: 35px;
 }
-.card
+.small
 {
-    border: 2px solid gray;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    border-radius: 0.5rem;
-    width: 300px;
-    height: 300px;
-    background-color: #ccc;
+    font-size: 18px;
 }
-.card:hover
+.img
 {
-  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
-}
-.btn-primary
-{
-    opacity: 0.7;
-}
-.btn-primary:hover
-{
-    opacity: 1;
-}
-.btn-outline-light
-{
-    border: none;
-}
-#nav
-{
-    width: 35px;
-    height: 35px;
-}
-.navbar-brand
-{
-    color: white;
-}
-.navbar-brand:hover
-{
-    color: white;
-}
-.classes
-{
-    padding: 10px;
-    width: 95%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.jumbotron
-{
-    color: white;
-    background-color: transparent;
-    /*background-image: linear-gradient(to bottom, #ccc, transparent);
-    */
+    width: 100% !important;
 }
