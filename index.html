@@ -12,7 +12,7 @@
         <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
         <!--Custom CSS & JS-->
         <script src='script.js' defer=''></script>
-        <link href='styles.css' rel='stylesheet'>
+        <link id="link" href='styles.css' rel='stylesheet'>
         <!--Fonts-->
         <link href='https://fonts.googleapis.com/css?family=Google+Sans' rel='stylesheet'>
         <title>Mechatronics Club</title>
@@ -20,6 +20,7 @@
     <body>
         <div class="jumbotron">
             <h1>Mechatronics Club</h1>
+            <button onclick="mode();" class="btn dark-mode" name="" id="">Dark Mode</button>
         </div>
         <div class="container-fluid">
             <div class="card-deck">
@@ -39,6 +40,18 @@
                         ---
                     </div>
                 </div>
+            </div>
+            <br>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-header">
+                        Google Classroom
+                    </div>
+                    <div class="card-body">
+                        <span class="small">Code:</span>
+                        <span>tcd2svs</span>
+                    </div>  
+                </div>
                 <div class="card">
                     <div class="card-header">
                         Last Meeting
@@ -50,29 +63,24 @@
             </div>
             <br>
             <div class="card">
-                <div class="card-header">
-                    Google Classroom
-                </div>
+                <div class="card-header">Helpful links</div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col small">Code</div>
-                        <div class="col small">Link</div>
+                        <div class="col text-center"><a href="https://classroom.google.com/u/2/c/NTgyMzA1NzcxMjAy"><img class="logos" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png" alt=""></a></div>
+                        <div class="col text-center"><a href="https://www.youtube.com/@shakertronics"><img class="logos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png" alt=""></a></div>
+                        <div class="col text-center"><a href="https://www.arduino.cc/reference/en/"><img class="logos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Arduino_Logo_Registered.svg/640px-Arduino_Logo_Registered.svg.png" alt=""></a></div>
+                        <div class="col text-center"><a href="https://drive.google.com/drive/folders/1lA_C-bdi6jrPz8fwuSQd6dscSzV1EKh7?usp=share_link"><img class="logos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Google_Slides_2020_Logo.svg/640px-Google_Slides_2020_Logo.svg.png" alt=""></a></div>
                     </div>
                     <div class="row">
-                        <div class="col">tcd2svs</div>
-                        <div class="col"><a href="https://classroom.google.com/c/NTgyMzA1NzcxMjAy?cjc=tcd2svs" class="btn btn-lg btn-block btn-info"><img class="utube-logo" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png" alt=""></a></div>
+                        <div class="col text-center small">Google Classroom</div>
+                        <div class="col text-center small">Shakertronics YouTube</div>
+                        <div class="col text-center small">Arduino Documentation</div>
+                        <div class="col text-center small">Meeting Google Slides</div>
                     </div>
+                        
                 </div>
             </div>
-            <br>
-            <div class="card">
-                <div class="card-header">Helpful links</div>
-                <div class="card-body row">
-                    <div class="col"><a href="#"><img src="" alt=""></a></div>
-                    <div class="col"><a href="#"><img src="" alt=""></a></div>
-                    <div class="col"><a href="#"><img src="" alt=""></a></div>
-                </div>
-            </div>
+            
         </div> 
     </body>
 </html>
