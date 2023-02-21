@@ -2,6 +2,8 @@
 {
     transition: 0.2s ease !important;
     font-family: Google Sans;
+    color: #343a40 !important;
+    color: #f8f9fa;
 }
 body
 {
@@ -23,12 +25,44 @@ body
 }
 .logos
 {
-    height: 100px;
+    height: 100%;
 }
 .dark-mode
 {
-    width: 150px;
+    width: 100px;
     text-align: left;
     padding: 0px;
-    outline: none;
+    outline: none !important;
+}
+.form-control-plaintext
+{
+    line-height: 35px;
+    font-size: 35px;
+}
+.arduino-logo
+{
+    transition: ease 0.1s;
+    background-color: #e9ecef;
+    margin: auto;
+    padding: 0px;
+    height: 100%;
+    width: 66px;
+    border-radius: 0.25rem;
+}
+.nav-link
+{
+    height: 50px !important;
+    padding: 0px !important;
+}
+.jumbotron
+{
+    border-radius: 0px;
+    padding-top: 45px;
+    height: 190px;
+    border-top: 1px solid gray !important;
+}
+.navbar
+{
+    background-color: #e9ecef !important;
+    color: #343a40 !important;
 }
